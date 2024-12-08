@@ -1,0 +1,65 @@
+
+body
+{
+    background-image: url(../Images/HomePageBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.libraryName
+{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3
+{
+    font-family: "Yuji Mai", serif;
+    text-align: center;
+    color: rgb(214, 25, 126);
+    border: 2px solid ;
+    background-color: black;
+    
+    
+    
+}
+.navbar
+{
+    background-color: rgb(83, 138, 138);
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.content
+{
+    font-size: 20px;
+    
+}
+.hometext
+{
+    background-color: rgb(148, 227, 176);
+}
+.bookImage
+{
+    width:120px;
+    background-color: red;
+   
+}
+.col-2
+{
+    margin-right: 30px;
+}
+.nav-link:hover
+{
+    background-color: black;
+    color: white;
+}
+.logo
+{
+    max-width: 80px;
+}
+.collapse
+{
+    display: flex;
+    justify-content: space-between;
+}

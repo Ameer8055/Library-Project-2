@@ -1,0 +1,50 @@
+.navbar
+{
+    background-color: rgb(83, 138, 138);
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+
+}
+.libraryName
+{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body
+{
+    background-image: url(../Images/books/whale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img
+{
+    width: 300px;
+}
+.recoimg
+{
+    max-width: 250px;
+}
+.recc
+{
+    background-color: aqua;
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgb(21, 21, 21);
+}
+p
+{
+    font-size: larger;
+}
+.bookname
+{
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 4px black;
+}
+.navbar .nav-link:hover
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}

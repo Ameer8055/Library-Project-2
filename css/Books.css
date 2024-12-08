@@ -1,0 +1,53 @@
+body
+{
+    background-image: url(../Images/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.libraryName
+{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar
+{
+    background-color: rgb(83, 138, 138);
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    
+
+}
+.card-img-top
+{
+    width: 150px;
+   
+}
+.card
+{
+    padding-top: 10px;
+    background: none;
+    width: 200px;
+    background-color: black;
+}
+
+.col,.booklink
+{
+    width: 300px;
+    align-items: center;
+    align-content: center;
+    
+   
+}
+.card-title,.card-text
+{
+    text-align: center;
+    color: brown;
+}
+.nav-link:hover
+{
+    background-color: black;
+    color: white;
+}
+

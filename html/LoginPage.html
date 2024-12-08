@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/LoginPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h3 class="libraryName">The Reading Nook</h3>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            
+            <ul class="navbar-nav mt-4">
+              <li class="nav-item">
+                <a class="nav-link border border-2 p-1 me-2 rounded-5 mb-3"  href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active border border-2 p-1 me-2 rounded-5 mb-3" aria-current="page" href="LoginPage.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border border-2 p-1 me-2 rounded-5 mb-3" aria-current="page" href="SignupPage.html">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border border-2 p-1 me-2 rounded-5 mb-3"  href="BooksDisplay.html">Books</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <form class="formdiv p-4 rounded-3 border border-2 border-dark w-30 mx-auto mb-5">
+          <div class="mb-3">
+            <h2>User Login</h2>
+            <label for="exampleInputEmail1" class="form-label">UserName</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+          </div>
+          <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"><br>
+              <button type="submit" class="btn btn-primary d-grid col-12">Login</button>
+              <p>Need An Account?</p>
+              <a class="text-danger" href="SignupPage.html">Sign In</a></div>
+        </form>
+      </div>
+      
+
+
+   <script src="../js/bootstrap.min.js"></script>
+      
+    
+</body>
+</html>
